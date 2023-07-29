@@ -4,6 +4,7 @@ public class PlayerCollision : MonoBehaviour
 {
     private string enemyTag = "Fantasma"; 
     public GameObject gameOver;
+    public AudioSource audioGameOver;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -13,6 +14,7 @@ public class PlayerCollision : MonoBehaviour
         
             gameObject.SetActive(false);
             gameOver.SetActive(true);
+            audioGameOver.Play();
 
         
         }

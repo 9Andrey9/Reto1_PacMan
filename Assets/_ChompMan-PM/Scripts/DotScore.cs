@@ -5,6 +5,7 @@ public class DotScore : MonoBehaviour
     public int puntosGanados = 1;
     public GameObject particleEffect; 
     private ScoreManager scoreManager;
+    public AudioSource audioDotCollision;
 
     private void Start()
     {
@@ -19,6 +20,7 @@ public class DotScore : MonoBehaviour
             if (particleEffect != null)
             {
                 Instantiate(particleEffect, transform.position, Quaternion.identity);
+                audioDotCollision.Play();
             }
 
             Destroy(gameObject);
