@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 42e6741d6070fc041a72b36175d45cf6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Avenir Next LT Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d0c42ae0713ae2a4ca3dee0998bd391e, type: 3}
+  - {fileID: 12800000, guid: 1210b6d7f5877b24ab7becc620195458, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
