@@ -11,7 +11,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void EscenaJuego()
     {
-        SceneManager.LoadScene("Reto 1");
+        SceneManager.LoadScene("Reto1");
     }
 
     public void Salir()
